@@ -1,0 +1,44 @@
+body {
+  background-color: #dde8f1;
+  text-align: center;
+}
+
+canvas, h1 {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1 {
+  color: white;
+  font-family: "Open Sans";
+  position: fixed;
+  bottom: 100px;
+  font-size: 40px;
+  width: 100%;
+  text-align:center;
+}
+
+h1 span {
+  color: black;
+  font-family: Arial;
+  margin:0 4px;
+  position:relative;
+  font-size:24px;
+  top: -8px;
+}
+
+h1 span.ampm {
+  position: relative;
+  top: -17px;
+  font-size: 16px;
+  color: white;
+}
+
+.logo {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
